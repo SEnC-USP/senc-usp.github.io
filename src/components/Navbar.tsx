@@ -22,7 +22,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
           <Button
             size="lg"
             variant="link"
-            className="text-4xl font-bold hover:text-green-600"
+            className="text-4xl font-bold hover:text-accent"
           >
             SEnC
           </Button>
@@ -30,28 +30,28 @@ const Navbar: FC<NavbarProps> = ({}) => {
         <ul className="hidden sm:flex">
           <li className="p-1">
             <Link href="/programacao">
-              <Button variant="link" className="hover:text-green-600">
+              <Button variant="link" className="hover:text-accent">
                 Programação
               </Button>
             </Link>
           </li>
           <li className="p-1">
             <Link href="/patrocinadores">
-              <Button variant="link" className="hover:text-green-600">
+              <Button variant="link" className="hover:text-accent">
                 Patrocinadores
               </Button>
             </Link>
           </li>
           <li className="p-1">
             <Link href="/contato">
-              <Button variant="link" className="hover:text-green-600">
+              <Button variant="link" className="hover:text-accent">
                 Contato
               </Button>
             </Link>
           </li>
           <li className="p-1 ml-4">
             <Link href="/participante">
-              <Button className="hover:text-white hover:bg-green-950">
+              <Button className="hover:text-white hover:bg-accent">
                 <div className="flex w-auto items-center">
                   <User />
                   <p className="pl-4">Área do participante</p>
@@ -76,7 +76,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
                     <Button
                       size="lg"
                       variant="link"
-                      className="text-xl font-bold hover:text-green-600"
+                      className="text-xl font-bold hover:text-accent"
                     >
                       SEnC
                     </Button>
@@ -87,21 +87,21 @@ const Navbar: FC<NavbarProps> = ({}) => {
                 <ul>
                   <li className="p-1">
                     <Link href="/programacao">
-                      <Button variant="link" className="hover:text-green-600">
+                      <Button variant="link" className="hover:text-accent">
                         Programação
                       </Button>
                     </Link>
                   </li>
                   <li className="p-1">
                     <Link href="/patrocinadores">
-                      <Button variant="link" className="hover:text-green-600">
+                      <Button variant="link" className="hover:text-accent">
                         Patrocinadores
                       </Button>
                     </Link>
                   </li>
                   <li className="p-1">
                     <Link href="/contato">
-                      <Button variant="link" className="hover:text-green-600">
+                      <Button variant="link" className="hover:text-accent">
                         Contato
                       </Button>
                     </Link>

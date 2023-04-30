@@ -6,30 +6,41 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 47.4% 11.2%;
+    --background: 120 23.8% 95.9%;
+    --foreground: 240.9 35% 39.8%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 47.4% 11.2%;
+    --popover: 120 23.8% 95.9%;
+    --popover-foreground: 240.9 35% 39.8%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 47.4% 11.2%;
+    --card: 120 23.8% 95.9%;
+    --card-foreground: 240.9 35% 39.8%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 240.9 35% 39.8%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary-foreground: 240.9 35% 39.8%;
 
-    --accent: 210 40% 96.1%;
+    /*266.4 59.1 49.8*/
+    --accent: 266.4 59.1% 49.8%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 100% 50%;
@@ -38,6 +49,10 @@ html {
     --ring: 215 20.2% 65.1%;
 
     --radius: 0.5rem;
+
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
   }
 
   .dark {
@@ -50,7 +65,7 @@ html {
     --popover: 224 71% 4%;
     --popover-foreground: 215 20.2% 65.1%;
 
-    --card: 0 0% 100%;
+    --card: 120 23.8% 95.9%;
     --card-foreground: 222.2 47.4% 11.2%;
 
     --border: 216 34% 17%;
