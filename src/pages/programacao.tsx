@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 
-export default function Home() {
+export default function Programacao() {
   return (
     <div className="flex flex-col w-full min-h-screen items-start bg-rose-200">
       <Navbar />

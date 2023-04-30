@@ -69,7 +69,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
                 <Menu />
               </Button>
             </SheetTrigger>
-            <SheetContent position="right" size="lg">
+            <SheetContent position="right" size="full">
               <SheetHeader>
                 <SheetTitle>
                   <Link href="/">
@@ -108,7 +108,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
                   </li>
                   <li className="p-1 ml-4">
                     <Link href="/participante">
-                      <Button className="hover:text-green-600">
+                      <Button className="hover:text-white hover:bg-green-950">
                         <div className="flex w-auto items-center">
                           <User />
                           <p className="pl-4">Área do participante</p>
